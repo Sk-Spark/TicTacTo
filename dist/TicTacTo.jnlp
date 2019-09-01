@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TicTacTo.jnlp">
+    <information>
+        <title>TicTacTo</title>
+        <vendor>spark</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="TicTacTo.jar" size="8217" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="tictacto.TicTacTo" name="TicTacTo"/>
+</jnlp>
+
